@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="{%  static  'css/style.css'  %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HemosCookout</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="{% static '/css/images/asb.png' %}" height=60px>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="mailto:admin@hemodrip.ca">Contact Us</a></li>
+            </ul>
+
+            <form action="/oauth2/login">
+            <button class="Sign In" >Sign In</button>
+            </form>
+
+            
+
+        </nav>
+    </header>
+
+    <div>
+        <h1 class="hidden">hemo</h1>
+    </div>
+    <section>
+        <img class="banner" src="{% static '/css/images/banner.png' %}" width="100%" height="auto">
+    </section>
+
+    <div>
+        <h1 class="hidden1">hemo</h1>
+    </div>
+
+    <section>
+        <h1>FEATURES</h1>
+    </section>
+
+    <div class="row">
+        <div class="columnLeft">
+            <img src="{% static '/css/images/exclusive info.png' %}">
+            <h2>EXCLUSIVE INFORMATION</h2>
+            <p>AT HEMOSCOOKOUT WE PROVIDE OUR USERS WITH ACCURATE RELEASE AND RESTOCK INFORMATION. WITH EARLY LINKS AND
+                INSIDERS INFO
+                WE ARE ABLE TO PROVIDE YOU WITH THE MOST CREDIBLE AND EFFECTIVE INFORMATION. WE MAKE SURE USERS DON’T
+                MISS A DROP</p>
+        </div>
+        <div class="columnRight">
+            <img src="{% static '/css/images/cart.png' %}">
+            <h2>SLOTS</h2>
+            <p>NEVER MISS A DROP, RUN YOU TASK WITH OUR BOTS. WE WILL SERVE YOU A SHOE</p>
+        </div>
+        <div class="columnMiddle">
+            <img src="{% static '/css/images/stockscrypto.png' %}">
+            <h2>STOCK/CRYPTO</h2>
+            <p>WE HAVE PROVIDE SUPPORT AND HELP YOU ACCESS INFO QUICKER AND MORE EFFICIENTLY
+                LOWKEY FLIPS. WE FOCUS ON ITEM OTHER THAN SNEAKERS; WE HAVE MONITOR AND INFORMATION ON ITEM THAT YOU ARE
+                ABLE TO MAKE
+                SOME PROFITS ON.
+                POKEMON, YUGIOH, SPORT CARDS, NBA TOP SHOT, ELECTRONICS AND MUCH MUCH MORE</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="columnMiddle">
+            <img src="{% static '/css/images/guids.png' %}">
+            <h2>GUIDES</h2>
+            <p>ALL MEMBERS HAVE ACCESS TO GUIDES THAT WILL INCREASE YOU SUCCESS IN THIS COMMUNITY AND MARKET. OUR GUIDES
+                RANGE FROM BOT
+                SETUP, STOCK ACCOUNT CREATIONS TO SERVER SET UP AND MUCH MORE.</p>
+        </div>
+        <div class="columnMiddle">
+            <img src="{% static '/css/images/24-7support.png' %}">
+            <h2>24/7 Support</h2>
+            <p>WE HAVE A FRIENDLY AND HELPFUL GROUP OF STAFF, THAT WILL ALWAYS BE ABLE TO HELP WHENEVER YOU NEED IT.</p>
+        </div>
+        <div class="columnLeft">
+            <img src="{% static '/css/images/lowkey flips.png' %}">
+            <h2>MUCH MORE.</h2>
+            <p>HEMOSCOOKOUT TEAMS IS ALWAYS LOOKING TO BE AHEAD AND PROVIDING AN UPPER HAND TO OUR MEMBERS; BY PROVIDING
+                EXCLUSIVE
+                TOOLS, FEATURES, SOFTWARE AND MORE.</p>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
+
+
+
+
